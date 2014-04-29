@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		2D2CC78E190F3D6100C74A5D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D2CC78D190F3D6100C74A5D /* main.cpp */; };
 		2D2CC790190F3D6100C74A5D /* StringForth.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D2CC78F190F3D6100C74A5D /* StringForth.1 */; };
+		2D3901A4190F4A3C005728DC /* Cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D390197190F4A3C005728DC /* Cell.cpp */; };
+		2D3901A5190F4A3C005728DC /* Dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D390199190F4A3C005728DC /* Dictionary.cpp */; };
+		2D3901A6190F4A3C005728DC /* Interpreter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D39019B190F4A3C005728DC /* Interpreter.cpp */; };
+		2D3901A7190F4A3C005728DC /* Lexeme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D39019D190F4A3C005728DC /* Lexeme.cpp */; };
+		2D3901A8190F4A3C005728DC /* Misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D39019F190F4A3C005728DC /* Misc.cpp */; };
+		2D3901A9190F4A3C005728DC /* Word.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D3901A2190F4A3C005728DC /* Word.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +34,19 @@
 		2D2CC78A190F3D6100C74A5D /* StringForth */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StringForth; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2CC78D190F3D6100C74A5D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2D2CC78F190F3D6100C74A5D /* StringForth.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = StringForth.1; sourceTree = "<group>"; };
+		2D390197190F4A3C005728DC /* Cell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cell.cpp; sourceTree = "<group>"; };
+		2D390198190F4A3C005728DC /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		2D390199190F4A3C005728DC /* Dictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dictionary.cpp; sourceTree = "<group>"; };
+		2D39019A190F4A3C005728DC /* Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
+		2D39019B190F4A3C005728DC /* Interpreter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interpreter.cpp; sourceTree = "<group>"; };
+		2D39019C190F4A3C005728DC /* Interpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpreter.h; sourceTree = "<group>"; };
+		2D39019D190F4A3C005728DC /* Lexeme.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lexeme.cpp; sourceTree = "<group>"; };
+		2D39019E190F4A3C005728DC /* Lexeme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lexeme.h; sourceTree = "<group>"; };
+		2D39019F190F4A3C005728DC /* Misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Misc.cpp; sourceTree = "<group>"; };
+		2D3901A0190F4A3C005728DC /* Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Misc.h; sourceTree = "<group>"; };
+		2D3901A1190F4A3C005728DC /* StringForth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringForth.h; sourceTree = "<group>"; };
+		2D3901A2190F4A3C005728DC /* Word.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Word.cpp; sourceTree = "<group>"; };
+		2D3901A3190F4A3C005728DC /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +80,19 @@
 			isa = PBXGroup;
 			children = (
 				2D2CC78D190F3D6100C74A5D /* main.cpp */,
+				2D390197190F4A3C005728DC /* Cell.cpp */,
+				2D390198190F4A3C005728DC /* Cell.h */,
+				2D390199190F4A3C005728DC /* Dictionary.cpp */,
+				2D39019A190F4A3C005728DC /* Dictionary.h */,
+				2D39019B190F4A3C005728DC /* Interpreter.cpp */,
+				2D39019C190F4A3C005728DC /* Interpreter.h */,
+				2D39019D190F4A3C005728DC /* Lexeme.cpp */,
+				2D39019E190F4A3C005728DC /* Lexeme.h */,
+				2D39019F190F4A3C005728DC /* Misc.cpp */,
+				2D3901A0190F4A3C005728DC /* Misc.h */,
+				2D3901A1190F4A3C005728DC /* StringForth.h */,
+				2D3901A2190F4A3C005728DC /* Word.cpp */,
+				2D3901A3190F4A3C005728DC /* Word.h */,
 				2D2CC78F190F3D6100C74A5D /* StringForth.1 */,
 			);
 			path = StringForth;
@@ -117,7 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3901A6190F4A3C005728DC /* Interpreter.cpp in Sources */,
 				2D2CC78E190F3D6100C74A5D /* main.cpp in Sources */,
+				2D3901A4190F4A3C005728DC /* Cell.cpp in Sources */,
+				2D3901A9190F4A3C005728DC /* Word.cpp in Sources */,
+				2D3901A8190F4A3C005728DC /* Misc.cpp in Sources */,
+				2D3901A5190F4A3C005728DC /* Dictionary.cpp in Sources */,
+				2D3901A7190F4A3C005728DC /* Lexeme.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +265,7 @@
 				2D2CC795190F3D6100C74A5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

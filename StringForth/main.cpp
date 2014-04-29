@@ -1,18 +1,24 @@
 //
-//  main.cpp
-//  StringForth
+//  StringForth/main.cpp
 //
-//  Created by Michael Henderson on 4/28/14.
+//  Created by Michael Henderson on 4/23/14.
 //  Copyright (c) 2014 Maloquacious Productions, LLC. All rights reserved.
 //
 
-#include <iostream>
+#include "StringForth.h"
 
-int main(int argc, const char * argv[])
-{
+// ------------------------------------------------------------------------
+const char *program = "0 dup . . 1 2 3 stackHeight . + + . 'hello' { 'hello, world!' . } 'goodbye' { 'say goodnight' . } hello goodbye stackHeight .";
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+// ------------------------------------------------------------------------
+int main(int argc, const char * argv[]) {
+    S4::Interpreter *interpreter = new S4::Interpreter(program);
+
+    while (interpreter->Step()) {
+        ;
+    }
+
+    delete interpreter;;
+
     return 0;
 }
-
